@@ -1,0 +1,266 @@
+
+
+.font1{
+    font-family: 'Bitter', serif;
+}
+
+
+.font2{
+    
+    /* font-family: 'Bitter', serif; */
+    font-family: 'Staatliches', cursive;
+}
+.font3{
+    font-family: 'Abril Fatface', cursive;
+
+}
+.font4{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.font5{
+    font-family: 'Patua One', cursive;
+}
+.font6{
+    font-family: 'Cabin Condensed', sans-serif;
+font-family: 'Patua One', cursive;
+}
+.font7{
+    font-family: 'Bebas Neue', cursive;
+}
+.font8{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Courgette', cursive;
+}
+.icon{
+    color: white;
+}
+.icon:hover{
+    color: rgb(106, 231, 253);
+
+}
+.nav-rightt{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.nav-rightt:hover{
+    color: rgb(106, 231, 253);
+
+}
+
+.nav-right{
+    color: transparent;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.nav-right:hover{
+    color: rgb(106, 231, 253);
+
+}
+
+
+.heroes{
+  position: relative;
+    z-index: 3;
+    background-size: 120% 90%;
+        background-position: top;
+        background-repeat: no-repeat;
+    background-image: url('http://pixelhub.me/pixelhub1/images/uploads/1385467739background_portfolio.jpg');
+
+    /* background: rgb(46, 48, 56); */
+/* background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(76,223,240,1) 75%, rgba(70,205,252,0.5242471988795518) 100%); */
+    width: 100%;
+    height: 400px;
+}
+
+.avatar{
+    width: 250px;
+	height:250px;
+    border: 3px solid white;
+	border-radius: 15px 50px 30px; 
+    margin-bottom: 20px;
+
+    
+}
+
+.avatar {
+    width:270px;
+    height:240px;
+    border-style: solid;
+	border-radius: 15px 50px 30px; 
+  }
+ 
+  
+
+
+
+.about{
+    background: rgb(168,174,179);
+    background: linear-gradient(0deg, rgba(168,174,179,1) 0%, rgba(0,0,0,1) 93%);
+    width: 100%;
+    height: 400px;
+
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 200px;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 2.5rem;
+}
+.gradient-border {
+  --borderWidth: 3px;
+  background: #1D1F20;
+  position: relative;
+  border-radius:  15px 50px 30px;
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #fd2929, #ff2e69, #40ffec, #cd4fed, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 200% 300%;
+}
+
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+.hello-im {
+	/* text-transform: uppercase; */
+	background: linear-gradient(to right, #e6ff07 0%, #41ffdf 20%,#088850 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/* font: {
+		size: 20vw;
+		family: $font;
+	}; */
+}
+
+.hello-about {
+	/* text-transform: uppercase; */
+	background: linear-gradient(to right, #5cfff1 0%, #fffa6b 20%,#088850 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/* font: {
+		size: 20vw;
+		family: $font;
+	}; */
+}
+
+
+
+.about-card{
+    border: 2px solid rgb(160, 155, 155);
+    border-radius: 10px;
+    /* box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 9.8px 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ; */
+  /* box-shadow: rgba(0, 0, 0, 0.25) 8px 0.625em 1.6625em,
+              rgba(0, 0, 0, 0.25)  2px  0.125em 0.5em inset,
+              rgba(0, 0, 0, 0.25) 2px  2.225em 3.5em ,
+              rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
+  box-shadow: 
+  5px -3px 9px 5.3px rgba(85, 82, 82, 0.2),
+                 5.3px  5px 5px rgba(0, 0, 0, 0.2),
+                rgba(181, 172, 172, 0.85)   2px 1px 0.325em 0.100em inset,
+                 
+                 20px 15px 15px rgba(0, 0, 0,0.2),
+                 -2px 4.2px 15px rgba(0, 0, 0,0.2);
+  
+}
+
+.hr-project{
+    box-shadow: 
+    1px 1px 1px 1.3px rgb(216, 111, 111),
+    1px  1px  8px 4px rgba(48, 255, 159, 0.938);
+                   
+                   /* 20px 15px 15px rgba(150, 255, 229, 0.89), */
+                   /* -2px 4.2px 15px rgba(109, 172, 255, 0.986); */
+    margin-bottom: 20px;
+     width: 50%;  
+    background: #8A2387;  /* fallback for old browsers */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* width: 50%; */
+    
+        background-color: rgb(255, 251, 251); height: 3px; border-radius: 20px;
+}
+
+.hr-any{
+    margin-bottom: 20px; width: 80%; background-color: rgb(34, 255, 214); height: 3px; border-radius: 20px;
+}
+
+
+.project{
+   
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(168,174,179,1) 93%);
+    width: 100%;
+    height: 100%;
+
+}
+.ican{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(129, 131, 133) 93%);
+   
+    width: 100%;
+    height:  100%;
+
+}
+
+
+.icando{
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(10, 1, 1);
+
+   border: 3px solid rgb(18, 212, 255);
+}
+
+.icando:hover{
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(255, 255, 255);
+   border: 3px solid rgb(255, 0, 47);
+    
+
+}
+
+footer{
+    background-color:  rgba(168,174,179,1) ;
+}
